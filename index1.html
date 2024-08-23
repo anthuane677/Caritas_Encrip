@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b3ae2cad4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>CIFRA TUS PALABRAS DECIFRA SONRISAS <i class="fa-solid fa-face-smile-wink"></i></h1>
+    </header>
+    <main>
+        <section>
+            <label>Introduzca su texto:</label>
+            <br>
+            <textarea type="text" id="tex1" placeholder="Escriba aquí" rows="6" cols="80"></textarea>
+            <input type="number" id="desplazamiento" min="1" max="25" value="3">        
+        </section>
+        <section>
+            <button id="btnEncriptar">Encriptar</button>
+            <button id="btnDesencriptar">Desencriptar</button>
+        </section>
+        <div class="gatito">
+            <img id="gatito" src="assets/img/gato_enojado.webp" height="200px" width="200px">
+        </div>
+        <section>
+            <label>Texto Obtenido: </label>
+            <br>
+            <textarea type="text" id="textnuevo" rows="6" cols="80"></textarea>
+            <br>
+            <button id="btnCopiar">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Todos los derechos reservados a GirlsCode</p>
+    </footer>
+    <script src="assets/js/funcionalidad.js"></script>
+</body>
+</html>

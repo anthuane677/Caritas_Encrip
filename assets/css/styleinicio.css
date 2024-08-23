@@ -1,0 +1,47 @@
+body {
+    font-family: 'Fredoka', 'Arial', sans-serif;
+    background-color: #F3EDE1;
+    color: #5D4037;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    height: 100vh;
+    padding-top: 150px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Delius Unicase', cursive;
+}
+
+.contenedor {
+    background-color: #D7CCC8; /* Fondo del rectángulo en tono café claro */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.btnempezar {
+    background-color: #8D6E63; /* Fondo del botón en tono café oscuro */
+    color: white;
+    border: none;
+    border-radius: 55px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btnempezar:hover {
+    background-color: #795548; /* Cambio de color al pasar el mouse */
+}
